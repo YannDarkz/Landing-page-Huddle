@@ -1,0 +1,139 @@
+
+    @media (min-width: 1800px) {
+        .container-main {
+            
+             width: 70%;
+         
+            
+        }
+    
+    }
+
+    @media (max-width: 1439px) {
+
+        .c-info-topo {
+           
+            padding-top: 6vh;
+          
+        }
+
+        .c-info-topo .titulo-topo {
+            
+            font-size: 3.5rem;
+        }
+
+        .c-info-topo p {
+          
+            font-size: 2rem;
+        }
+
+    }
+
+    @media (max-width: 1260px) {
+
+        .c-info-topo {
+           
+            padding-top: 4vh;
+          
+        }
+
+        .c-info-topo .titulo-topo {
+            
+            font-size: 3rem;
+        }
+
+        .c-info-topo p {
+          
+            font-size: 1.9rem;
+        }
+
+    }
+
+    @media (max-width: 1260px) {
+
+        .c-info-topo {
+           
+            padding-top: 4vh;
+          
+        }
+
+        .c-info-topo .titulo-topo {
+            
+            font-size: 3rem;
+        }
+
+        .c-info-topo p {
+          
+            font-size: 1.9rem;
+        }
+
+    }
+
+    @media (max-width: 1080px) {
+
+        .c-info-topo {
+           
+            padding-top: 4vh;
+            padding-left: 3vw;
+          
+        }
+
+        .c-info-topo .titulo-topo {
+            
+            font-size: 2.8rem;
+        }
+
+        .c-info-topo p {
+          
+            font-size: 1.8rem;
+            margin-bottom: 2vh;
+        }
+
+        .c-info-topo .btn-info-topo {
+
+           
+            height: 4vh;
+            width: 18vw;
+            font-size: 1.6rem;
+            
+        }
+
+    }
+
+    @media (max-width: 1024px) {
+
+        .c-info-topo {
+           
+            
+            padding-left: 3vw;
+          
+        }
+
+        .c-info-topo .titulo-topo {
+            
+            font-size: 2.6rem;
+        }
+
+        .c-info-topo p {
+          
+            font-size: 1.7rem;
+        }
+
+        .c-info-topo .btn-info-topo {
+
+           
+            height: 4vh;
+            width: 18.5vw;
+            font-size: 1.5rem;
+            
+        }
+
+        
+
+    }
+
+    @media (max-width: 900px) {
+
+    }
+    
+    

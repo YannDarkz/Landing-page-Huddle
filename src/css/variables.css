@@ -1,0 +1,21 @@
+:root {
+
+    --Pink: hsl(322, 100%, 66%);
+
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+
+    --Pink-op: hsl(322, 100%, 66%, 0.5);
+
+    
+
+   
+    
+    --Grayish-Blue-op: hsla(208, 11%, 55%, 0.015);
+
+
+    
+
+   
+}
