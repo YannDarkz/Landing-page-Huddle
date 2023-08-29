@@ -317,6 +317,7 @@ footer .contato {
     flex-direction: column;
     gap: 2vh;
     padding: 0 2vw 0 2.5vw;
+    
 }
 
 .contato .numero-contato:before {
@@ -362,7 +363,7 @@ footer .info-footer {
 
 .info-footer ul li a:hover {
     color: var(--Grayish-Blue);
-    zoom: 110%;
+    zoom: 106%;
     
 
 }
@@ -412,5 +413,4 @@ footer .direitos-reservados {
 .direitos-reservados .attribution a:hover {
     zoom: 105%;
     color: var(--Pink);
-
 }

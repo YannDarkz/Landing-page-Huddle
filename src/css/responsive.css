@@ -2,10 +2,7 @@
     .container-main {
 
         width: 70%;
-
-
     }
-
 }
 
 @media (max-width: 1439px) {
@@ -55,67 +52,6 @@
 
 }
 
-@media (max-width: 1080px) {
-
-    .c-info-topo {
-
-        padding-top: 4vh;
-        padding-left: 3vw;
-
-    }
-
-    .c-info-topo .titulo-topo {
-
-        font-size: 2.8rem;
-    }
-
-    .c-info-topo p {
-
-        font-size: 1.8rem;
-        margin-bottom: 2vh;
-    }
-
-    .c-info-topo .btn-info-topo {
-
-
-        height: 4vh;
-        width: 18vw;
-        font-size: 1.6rem;
-
-    }
-
-}
-
-/* @media (max-width: 1024px) {
-
-    .c-info-topo {
-
-
-        padding-left: 3vw;
-
-    }
-
-    .c-info-topo .titulo-topo {
-
-        font-size: 2.6rem;
-    }
-
-    .c-info-topo p {
-
-        font-size: 1.7rem;
-    }
-
-    .c-info-topo .btn-info-topo {
-
-
-        height: 4vh;
-        width: 18.5vw;
-        font-size: 1.5rem;
-
-    }
-
-} */
-
 @media (max-width: 1024px) {
 
     .topo {
@@ -157,7 +93,7 @@
     }
 
     .c-info-topo p {
-        font-size: 2.1vw;
+        font-size: 2.4vw;
         text-align: center;
         margin-bottom: 0;
 
@@ -187,21 +123,25 @@
 
     }
 
-    .container-main .info-p1, .info-p2, .info-p3 {
-        
+    .container-main .info-p1,
+    .info-p2,
+    .info-p3 {
+
         grid-template-rows: 30vh;
     }
 
-    .container-main .c-img-p1, .c-img-p2, .c-img-p3 {
+    .container-main .c-img-p1,
+    .c-img-p2,
+    .c-img-p3 {
         height: 30vh;
         padding: 2vh 2vw 2vh 4vw;
     }
 
     .container-main .adicional-main {
         width: 75vw;
-        
-    box-shadow: 0px 2px 5px var(--Grayish-Blue);
-    border-radius: 1rem;
+
+        box-shadow: 0px 2px 5px var(--Grayish-Blue);
+        border-radius: 1rem;
 
     }
 
@@ -222,8 +162,272 @@
         height: 30vh;
     }
 
+    footer .c-img-footer {
+        
+        width: 17vw;
+       
+
 }
 
-@media (max-width: 900px) {
+footer .contato {
+    
+    margin: 0 2vw 0 1.5vw;
+    font-size: 1.5vw;
+}
+
+
+}
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container-main {
+        width: 90vw;
+    }
+
+    .container-main .box {
+
+        height: auto;
+    }
+
+    .c-img-header .img-header {
+        width: 60%;
+    }
+
+    header .btn-header {
+       
+        font-size: 2.7vw;
+        
+    }
+
+    .c-info-topo .titulo-topo {
+        font-size: 3.9vw;
+       
+    }
+
+    .c-info-topo p {
+        font-size: 1.8rem;
+       
+    }
+
+    .c-info-topo .btn-info-topo {
+        height: 5vh;
+        width: 55vw;
+        font-size: 2.3vw;
+        letter-spacing: 0.1rem;
+    }
+
+    .container-main .info-p1,
+    .info-p3 {
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .container-main .info-p2 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-main .c-img-p1,
+    .c-img-p2,
+    .c-img-p3 {
+        height: auto;
+        padding: 2vh 2vw 2vh 4vw;
+        margin-bottom: 5vh;
+        width: 70vw;
+
+    }
+
+    .container-main .text-infop1,
+    .text-infop2,
+    .text-infop3 {
+
+        align-items: center;
+        gap: 2.5vh;
+        text-align: center;
+        padding-left: 0;
+    }
+    .container-main .text-infop2 {
+        padding: 0 0 0 0;
+    }
+
+    .container-main p {
+        margin-bottom: 4vh;
+        width: 60vw;
+        padding: 0 2vw 0 2vw;
+
+    }
+
+    .container-main .adicional-main {
+        width: 90vw;
+        height: 20vh;
+    
+    }
+
+    .container-main .adicional-main h2 {
+        font-size: 3.8vw;
+    }
+
+    .container-main .adicional-main .btn-info-main {
+        font-size: 1.7rem;
+        width: 45vw;
+        height: 5vh;
+        
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .c-img-footer {
+        
+        width: 25vw;
+       
+
+}
+
+    footer .contato {
+        width: 50vw;
+        margin: 0 2vw 5vh 2.5vw;
+       font-size: 2.1vw;
+    }
+
+    footer .info-footer {
+       
+        display: flex;
+        flex-direction: column;
+        gap: 0vw;
+        margin-bottom: 3vh;
+    }
+
+    footer .social {
+        justify-content: center;
+        gap: 3vw;
+        margin-bottom: 2vh;
+    
+   
+}
+
+.direitos-reservados {
+    align-items: center;
+}
+
+}
+
+@media (max-width: 540px){
+
+    
+    header .btn-header {
+        font-size: 2.9vw;
+    }
+
+    .c-info-topo .titulo-topo {
+        font-size: 5.9vw;
+    }
+
+    .c-info-topo p {
+        font-size: 3.8vw;
+        width: 70vw;
+        line-height: 1.4;
+    }
+    
+    .c-info-topo .btn-info-topo {
+
+        font-size: 2.8vw;
+
+    }
+    .container-main .box {
+        
+        width: 92%;
+    }
+
+    .container-main p {
+        margin-bottom: 4vh;
+        width: 65vw;
+        padding: 0 2vw 0 2vw;
+    }
+
+    footer .contato {
+        
+        font-size: 2.3vw;
+    }
+
+}
+
+@media (max-width: 440px) {
+    header .btn-header {
+        font-size: 3.2vw;
+        width: 27vw;
+        height: 3vh;
+    }
+
+    .c-info-topo .titulo-topo {
+        font-size: 6.2vw;
+        width: 75%;
+    }
+
+    .c-info-topo p {
+        font-size: 3.9vw;
+       
+    }
+
+    .c-info-topo .btn-info-topo {
+        font-size: 3.3vw;
+        height: 4.5vh;
+        width: 60vw;
+    }
+
+    .container-main p {
+        font-size: 3.6vw;
+        width: 70vw;
+        padding: 0 2vw 0 2vw;
+    }
+
+    .container-main .box h2 {
+        font-size: 5.5vw;
+    }
+
+
+    .container-main .adicional-main {
+        width: 90vw;
+        height: 13vh;
+        padding: 2vh 0 2vh 0;
+    }
+
+    .container-main .adicional-main h2 {
+        font-size: 4.2vw;
+    }
+
+    .container-main .adicional-main .btn-info-main {
+        font-size: 3.5vw;
+        width: 48vw;
+        height: 4vh;
+    }
+
+    footer .c-img-footer {
+        width: 33vw;
+    }
+
+    footer .contato {
+        
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+
+    footer .contato {
+     
+        margin: 0 2vw 5vh 5vw;
+     
+    }
+    
+
 
 }
