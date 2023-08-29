@@ -412,6 +412,10 @@ footer .contato {
         height: 4vh;
     }
 
+    footer {
+        font-size: 1.4rem;
+    }
+
     footer .c-img-footer {
         width: 33vw;
     }
@@ -426,6 +430,11 @@ footer .contato {
      
         margin: 0 2vw 5vh 5vw;
      
+    }
+
+    footer .direitos-reservados {
+        font-size: 1.3rem;
+        
     }
     
 
